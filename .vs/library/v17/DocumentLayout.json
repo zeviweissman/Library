@@ -3,16 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\leyze\\OneDrive\\\u05E9\u05D5\u05DC\u05D7\u05DF \u05D4\u05E2\u05D1\u05D5\u05D3\u05D4\\Repos\\Library\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{71FCE30E-A4AB-4427-AE9E-1529E5E47845}|library\\library.csproj|c:\\users\\leyze\\onedrive\\\u05E9\u05D5\u05DC\u05D7\u05DF \u05D4\u05E2\u05D1\u05D5\u05D3\u05D4\\repos\\library\\library\\controllers\\librarycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{71FCE30E-A4AB-4427-AE9E-1529E5E47845}|library\\library.csproj|solutionrelative:library\\controllers\\librarycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{71FCE30E-A4AB-4427-AE9E-1529E5E47845}|library\\library.csproj|c:\\users\\leyze\\onedrive\\\u05E9\u05D5\u05DC\u05D7\u05DF \u05D4\u05E2\u05D1\u05D5\u05D3\u05D4\\repos\\library\\library\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{71FCE30E-A4AB-4427-AE9E-1529E5E47845}|library\\library.csproj|solutionrelative:library\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{71FCE30E-A4AB-4427-AE9E-1529E5E47845}|library\\library.csproj|c:\\users\\leyze\\onedrive\\\u05E9\u05D5\u05DC\u05D7\u05DF \u05D4\u05E2\u05D1\u05D5\u05D3\u05D4\\repos\\library\\library\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{71FCE30E-A4AB-4427-AE9E-1529E5E47845}|library\\library.csproj|solutionrelative:library\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{71FCE30E-A4AB-4427-AE9E-1529E5E47845}|library\\library.csproj|c:\\users\\leyze\\onedrive\\\u05E9\u05D5\u05DC\u05D7\u05DF \u05D4\u05E2\u05D1\u05D5\u05D3\u05D4\\repos\\library\\library\\service\\seedservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{71FCE30E-A4AB-4427-AE9E-1529E5E47845}|library\\library.csproj|solutionrelative:library\\service\\seedservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{71FCE30E-A4AB-4427-AE9E-1529E5E47845}|library\\library.csproj|c:\\users\\leyze\\onedrive\\\u05E9\u05D5\u05DC\u05D7\u05DF \u05D4\u05E2\u05D1\u05D5\u05D3\u05D4\\repos\\library\\library\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{71FCE30E-A4AB-4427-AE9E-1529E5E47845}|library\\library.csproj|solutionrelative:library\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{71FCE30E-A4AB-4427-AE9E-1529E5E47845}|library\\library.csproj|c:\\users\\leyze\\onedrive\\\u05E9\u05D5\u05DC\u05D7\u05DF \u05D4\u05E2\u05D1\u05D5\u05D3\u05D4\\repos\\library\\library\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -57,11 +61,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
+              "Title": "LibraryController.cs",
+              "DocumentMoniker": "C:\\Users\\leyze\\OneDrive\\\u05E9\u05D5\u05DC\u05D7\u05DF \u05D4\u05E2\u05D1\u05D5\u05D3\u05D4\\Repos\\Library\\library\\Controllers\\LibraryController.cs",
+              "RelativeDocumentMoniker": "library\\Controllers\\LibraryController.cs",
+              "ToolTip": "C:\\Users\\leyze\\OneDrive\\\u05E9\u05D5\u05DC\u05D7\u05DF \u05D4\u05E2\u05D1\u05D5\u05D3\u05D4\\Repos\\Library\\library\\Controllers\\LibraryController.cs",
+              "RelativeToolTip": "library\\Controllers\\LibraryController.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAA0AAAAvAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-31T13:54:26.264Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "HomeController.cs",
               "DocumentMoniker": "C:\\Users\\leyze\\OneDrive\\\u05E9\u05D5\u05DC\u05D7\u05DF \u05D4\u05E2\u05D1\u05D5\u05D3\u05D4\\Repos\\Library\\library\\Controllers\\HomeController.cs",
               "RelativeDocumentMoniker": "library\\Controllers\\HomeController.cs",
@@ -69,11 +86,12 @@
               "RelativeToolTip": "library\\Controllers\\HomeController.cs",
               "ViewState": "AQIAAAMAAAAAAAAAAAAAABcAAAAIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-31T11:43:17.624Z"
+              "WhenOpened": "2024-07-31T11:43:17.624Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "SeedService.cs",
               "DocumentMoniker": "C:\\Users\\leyze\\OneDrive\\\u05E9\u05D5\u05DC\u05D7\u05DF \u05D4\u05E2\u05D1\u05D5\u05D3\u05D4\\Repos\\Library\\library\\Service\\SeedService.cs",
               "RelativeDocumentMoniker": "library\\Service\\SeedService.cs",
@@ -81,12 +99,11 @@
               "RelativeToolTip": "library\\Service\\SeedService.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAEAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-31T09:30:42.902Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-31T09:30:42.902Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "ISeedService.cs",
               "DocumentMoniker": "C:\\Users\\leyze\\OneDrive\\\u05E9\u05D5\u05DC\u05D7\u05DF \u05D4\u05E2\u05D1\u05D5\u05D3\u05D4\\Repos\\Library\\library\\Service\\ISeedService.cs",
               "RelativeDocumentMoniker": "library\\Service\\ISeedService.cs",
@@ -98,7 +115,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "library.csproj",
               "DocumentMoniker": "C:\\Users\\leyze\\OneDrive\\\u05E9\u05D5\u05DC\u05D7\u05DF \u05D4\u05E2\u05D1\u05D5\u05D3\u05D4\\Repos\\Library\\library\\library.csproj",
               "RelativeDocumentMoniker": "library\\library.csproj",
@@ -110,7 +127,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 12,
               "Title": "20240731092417_IntialCreate.cs",
               "DocumentMoniker": "C:\\Users\\1\\source\\repos\\library\\library\\Migrations\\20240731092417_IntialCreate.cs",
               "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\1\\source\\repos\\library\\library\\Migrations\\20240731092417_IntialCreate.cs",
@@ -122,7 +139,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\leyze\\OneDrive\\\u05E9\u05D5\u05DC\u05D7\u05DF \u05D4\u05E2\u05D1\u05D5\u05D3\u05D4\\Repos\\Library\\library\\appsettings.json",
               "RelativeDocumentMoniker": "library\\appsettings.json",
@@ -135,7 +152,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\leyze\\OneDrive\\\u05E9\u05D5\u05DC\u05D7\u05DF \u05D4\u05E2\u05D1\u05D5\u05D3\u05D4\\Repos\\Library\\library\\Program.cs",
               "RelativeDocumentMoniker": "library\\Program.cs",
@@ -147,7 +164,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "ApplicationDBContext.cs",
               "DocumentMoniker": "C:\\Users\\leyze\\OneDrive\\\u05E9\u05D5\u05DC\u05D7\u05DF \u05D4\u05E2\u05D1\u05D5\u05D3\u05D4\\Repos\\Library\\library\\Data\\ApplicationDBContext.cs",
               "RelativeDocumentMoniker": "library\\Data\\ApplicationDBContext.cs",
@@ -159,7 +176,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "BookModel.cs",
               "DocumentMoniker": "C:\\Users\\leyze\\OneDrive\\\u05E9\u05D5\u05DC\u05D7\u05DF \u05D4\u05E2\u05D1\u05D5\u05D3\u05D4\\Repos\\Library\\library\\Models\\BookModel.cs",
               "RelativeDocumentMoniker": "library\\Models\\BookModel.cs",
@@ -171,7 +188,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 11,
               "Title": "SetModel.cs",
               "DocumentMoniker": "C:\\Users\\leyze\\OneDrive\\\u05E9\u05D5\u05DC\u05D7\u05DF \u05D4\u05E2\u05D1\u05D5\u05D3\u05D4\\Repos\\Library\\library\\Models\\SetModel.cs",
               "RelativeDocumentMoniker": "library\\Models\\SetModel.cs",
@@ -183,7 +200,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "ShelfModel.cs",
               "DocumentMoniker": "C:\\Users\\leyze\\OneDrive\\\u05E9\u05D5\u05DC\u05D7\u05DF \u05D4\u05E2\u05D1\u05D5\u05D3\u05D4\\Repos\\Library\\library\\Models\\ShelfModel.cs",
               "RelativeDocumentMoniker": "library\\Models\\ShelfModel.cs",
@@ -195,7 +212,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "LibraryModel.cs",
               "DocumentMoniker": "C:\\Users\\leyze\\OneDrive\\\u05E9\u05D5\u05DC\u05D7\u05DF \u05D4\u05E2\u05D1\u05D5\u05D3\u05D4\\Repos\\Library\\library\\Models\\LibraryModel.cs",
               "RelativeDocumentMoniker": "library\\Models\\LibraryModel.cs",
