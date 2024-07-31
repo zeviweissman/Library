@@ -3,28 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\1\\source\\repos\\library\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{71FCE30E-A4AB-4427-AE9E-1529E5E47845}|library\\library.csproj|c:\\users\\1\\source\\repos\\library\\library\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{71FCE30E-A4AB-4427-AE9E-1529E5E47845}|library\\library.csproj|solutionrelative:library\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{71FCE30E-A4AB-4427-AE9E-1529E5E47845}|library\\library.csproj|c:\\users\\1\\source\\repos\\library\\library\\controllers\\setcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{71FCE30E-A4AB-4427-AE9E-1529E5E47845}|library\\library.csproj|solutionrelative:library\\controllers\\setcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{71FCE30E-A4AB-4427-AE9E-1529E5E47845}|library\\library.csproj|c:\\users\\1\\source\\repos\\library\\library\\service\\libraryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{71FCE30E-A4AB-4427-AE9E-1529E5E47845}|library\\library.csproj|solutionrelative:library\\service\\libraryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{71FCE30E-A4AB-4427-AE9E-1529E5E47845}|library\\library.csproj|c:\\users\\1\\source\\repos\\library\\library\\service\\setservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{71FCE30E-A4AB-4427-AE9E-1529E5E47845}|library\\library.csproj|solutionrelative:library\\service\\setservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{71FCE30E-A4AB-4427-AE9E-1529E5E47845}|library\\library.csproj|c:\\users\\1\\source\\repos\\library\\library\\service\\ilibraryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{71FCE30E-A4AB-4427-AE9E-1529E5E47845}|library\\library.csproj|solutionrelative:library\\service\\ilibraryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{71FCE30E-A4AB-4427-AE9E-1529E5E47845}|library\\library.csproj|c:\\users\\1\\source\\repos\\library\\library\\service\\isetservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{71FCE30E-A4AB-4427-AE9E-1529E5E47845}|library\\library.csproj|solutionrelative:library\\service\\isetservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{71FCE30E-A4AB-4427-AE9E-1529E5E47845}|library\\library.csproj|c:\\users\\1\\source\\repos\\library\\library\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{71FCE30E-A4AB-4427-AE9E-1529E5E47845}|library\\library.csproj|solutionrelative:library\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{71FCE30E-A4AB-4427-AE9E-1529E5E47845}|library\\library.csproj|c:\\users\\1\\source\\repos\\library\\library\\service\\iseedservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{71FCE30E-A4AB-4427-AE9E-1529E5E47845}|library\\library.csproj|solutionrelative:library\\service\\iseedservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{71FCE30E-A4AB-4427-AE9E-1529E5E47845}|library\\library.csproj|c:\\users\\1\\source\\repos\\library\\library\\service\\seedservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{71FCE30E-A4AB-4427-AE9E-1529E5E47845}|library\\library.csproj|solutionrelative:library\\service\\seedservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{71FCE30E-A4AB-4427-AE9E-1529E5E47845}|library\\library.csproj|c:\\users\\1\\source\\repos\\library\\library\\library.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{71FCE30E-A4AB-4427-AE9E-1529E5E47845}|library\\library.csproj|solutionrelative:library\\library.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,81 +26,59 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "HomeController.cs",
-              "DocumentMoniker": "C:\\Users\\1\\source\\repos\\library\\library\\Controllers\\HomeController.cs",
-              "RelativeDocumentMoniker": "library\\Controllers\\HomeController.cs",
-              "ToolTip": "C:\\Users\\1\\source\\repos\\library\\library\\Controllers\\HomeController.cs",
-              "RelativeToolTip": "library\\Controllers\\HomeController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-31T14:18:17.793Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "ISeedService.cs",
-              "DocumentMoniker": "C:\\Users\\1\\source\\repos\\library\\library\\Service\\ISeedService.cs",
-              "RelativeDocumentMoniker": "library\\Service\\ISeedService.cs",
-              "ToolTip": "C:\\Users\\1\\source\\repos\\library\\library\\Service\\ISeedService.cs",
-              "RelativeToolTip": "library\\Service\\ISeedService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-31T13:57:42.867Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "SeedService.cs",
-              "DocumentMoniker": "C:\\Users\\1\\source\\repos\\library\\library\\Service\\SeedService.cs",
-              "RelativeDocumentMoniker": "library\\Service\\SeedService.cs",
-              "ToolTip": "C:\\Users\\1\\source\\repos\\library\\library\\Service\\SeedService.cs",
-              "RelativeToolTip": "library\\Service\\SeedService.cs",
-              "ViewState": "AQIAADUAAAAAAAAAAAAQwAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-31T13:57:36.716Z"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\1\\source\\repos\\library\\library\\Program.cs",
-              "RelativeDocumentMoniker": "library\\Program.cs",
-              "ToolTip": "C:\\Users\\1\\source\\repos\\library\\library\\Program.cs",
-              "RelativeToolTip": "library\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAARAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-31T13:54:30.221Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "LibraryService.cs",
-              "DocumentMoniker": "C:\\Users\\1\\source\\repos\\library\\library\\Service\\LibraryService.cs",
-              "RelativeDocumentMoniker": "library\\Service\\LibraryService.cs",
-              "ToolTip": "C:\\Users\\1\\source\\repos\\library\\library\\Service\\LibraryService.cs",
-              "RelativeToolTip": "library\\Service\\LibraryService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAABCAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-31T13:54:25.306Z",
+              "Title": "library",
+              "DocumentMoniker": "C:\\Users\\1\\source\\repos\\library\\library\\library.csproj",
+              "RelativeDocumentMoniker": "library\\library.csproj",
+              "ToolTip": "C:\\Users\\1\\source\\repos\\library\\library\\library.csproj",
+              "RelativeToolTip": "library\\library.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-07-31T14:56:58.235Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "ILibraryService.cs",
-              "DocumentMoniker": "C:\\Users\\1\\source\\repos\\library\\library\\Service\\ILibraryService.cs",
-              "RelativeDocumentMoniker": "library\\Service\\ILibraryService.cs",
-              "ToolTip": "C:\\Users\\1\\source\\repos\\library\\library\\Service\\ILibraryService.cs",
-              "RelativeToolTip": "library\\Service\\ILibraryService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAzAAAA",
+              "Title": "ISetService.cs",
+              "DocumentMoniker": "C:\\Users\\1\\source\\repos\\library\\library\\Service\\ISetService.cs",
+              "RelativeDocumentMoniker": "library\\Service\\ISetService.cs",
+              "ToolTip": "C:\\Users\\1\\source\\repos\\library\\library\\Service\\ISetService.cs",
+              "RelativeToolTip": "library\\Service\\ISetService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAVAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-31T13:52:36.49Z"
+              "WhenOpened": "2024-07-31T14:41:01.562Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "SetService.cs",
+              "DocumentMoniker": "C:\\Users\\1\\source\\repos\\library\\library\\Service\\SetService.cs",
+              "RelativeDocumentMoniker": "library\\Service\\SetService.cs",
+              "ToolTip": "C:\\Users\\1\\source\\repos\\library\\library\\Service\\SetService.cs",
+              "RelativeToolTip": "library\\Service\\SetService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-31T14:41:02.912Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "SetController.cs",
+              "DocumentMoniker": "C:\\Users\\1\\source\\repos\\library\\library\\Controllers\\SetController.cs",
+              "RelativeDocumentMoniker": "library\\Controllers\\SetController.cs",
+              "ToolTip": "C:\\Users\\1\\source\\repos\\library\\library\\Controllers\\SetController.cs",
+              "RelativeToolTip": "library\\Controllers\\SetController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAASwBMAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-31T14:25:16.453Z",
+              "EditorCaption": ""
             }
           ]
         }

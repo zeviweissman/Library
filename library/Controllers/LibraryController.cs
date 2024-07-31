@@ -1,4 +1,5 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using library.Service;
 
 namespace library.Controllers
 {
@@ -10,8 +11,10 @@ namespace library.Controllers
 		{
 			_libraryService = libraryService;
 		}
-		public async Task<IActionResult> Index =>
-			await _libraryService.GetAllLibraris.view();
+		public async Task<IActionResult> Index() => 
+			View(await _libraryService
+				.GetAllLibraries()
+				);
 		
 	}
 }
