@@ -4106,23 +4106,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\1\\.nuget\\packages\\": {},
+    "C:\\Users\\leyze\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\1\\source\\repos\\library\\library\\library.csproj",
+      "projectUniqueName": "C:\\Users\\leyze\\OneDrive\\שולחן העבודה\\Repos\\Library\\library\\library.csproj",
       "projectName": "library",
-      "projectPath": "C:\\Users\\1\\source\\repos\\library\\library\\library.csproj",
-      "packagesPath": "C:\\Users\\1\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\1\\source\\repos\\library\\library\\obj\\",
+      "projectPath": "C:\\Users\\leyze\\OneDrive\\שולחן העבודה\\Repos\\Library\\library\\library.csproj",
+      "packagesPath": "C:\\Users\\leyze\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\leyze\\OneDrive\\שולחן העבודה\\Repos\\Library\\library\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\1\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\leyze\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
