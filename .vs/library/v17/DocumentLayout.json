@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Users\\1\\source\\repos\\library\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{71FCE30E-A4AB-4427-AE9E-1529E5E47845}|library\\library.csproj|c:\\users\\1\\source\\repos\\library\\library\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{71FCE30E-A4AB-4427-AE9E-1529E5E47845}|library\\library.csproj|solutionrelative:library\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{71FCE30E-A4AB-4427-AE9E-1529E5E47845}|library\\library.csproj|c:\\users\\1\\source\\repos\\library\\library\\service\\libraryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{71FCE30E-A4AB-4427-AE9E-1529E5E47845}|library\\library.csproj|solutionrelative:library\\service\\libraryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -30,11 +34,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\1\\source\\repos\\library\\library\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "library\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\1\\source\\repos\\library\\library\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "library\\Controllers\\HomeController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-31T14:18:17.793Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "ISeedService.cs",
               "DocumentMoniker": "C:\\Users\\1\\source\\repos\\library\\library\\Service\\ISeedService.cs",
               "RelativeDocumentMoniker": "library\\Service\\ISeedService.cs",
@@ -46,7 +63,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "SeedService.cs",
               "DocumentMoniker": "C:\\Users\\1\\source\\repos\\library\\library\\Service\\SeedService.cs",
               "RelativeDocumentMoniker": "library\\Service\\SeedService.cs",
@@ -58,7 +75,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\1\\source\\repos\\library\\library\\Program.cs",
               "RelativeDocumentMoniker": "library\\Program.cs",
@@ -70,7 +87,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "LibraryService.cs",
               "DocumentMoniker": "C:\\Users\\1\\source\\repos\\library\\library\\Service\\LibraryService.cs",
               "RelativeDocumentMoniker": "library\\Service\\LibraryService.cs",
@@ -83,7 +100,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "ILibraryService.cs",
               "DocumentMoniker": "C:\\Users\\1\\source\\repos\\library\\library\\Service\\ILibraryService.cs",
               "RelativeDocumentMoniker": "library\\Service\\ILibraryService.cs",
