@@ -20,9 +20,9 @@ namespace library.Service
         public async Task<List<SetModel>> GetAllSets() =>
             await _dbContext.set.ToListAsync();
 
-        public Task<SetModel> InsertSet( ,long ShelfId)
+        public Task<SetModel> InsertSet(long ShelfId)
         {
-
+            throw new NotImplementedException();
         }
     }
 }
