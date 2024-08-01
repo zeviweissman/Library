@@ -2,8 +2,11 @@
 {
     public class ShelfVM
     {
-        public required float Height { get; set; }
-        public required float Width { get; set; }
+        public long Id { get; set; }
+        public float Height { get; set; }
+        public float Width { get; set; }
+
+        public long LibraryId { get; set; }
     }
 
 }

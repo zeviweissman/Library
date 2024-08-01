@@ -8,15 +8,20 @@ using Microsoft.Identity.Client;
 
 namespace library.Controllers
 {
+
     public class SetController : Controller
     {
+
+        public SetModel? _set = null;
 
         private readonly ISetService _setService;
 
         public SetController(ISetService setService)
         {
             _setService = setService;
+           
         }
+
         public async Task<IActionResult> Index() =>
             View(await _setService
                 .GetAllSets()
@@ -44,34 +49,32 @@ namespace library.Controllers
 
         public async Task<IActionResult> AddBooks(SetBookVM model)
         {
-            SetModel set = new () { SetName = model.SetName};
-            BookModel book = new () 
-            { BookName = model.BookName,
-            GenreName = model.GenreName,
-            Height = model.Height,
-            Width = model.Width};
-            set.Books.Add(book);
-            try
+        BookModel book = new()
             {
-               var res = await _setService.InsertSet(set);
-                if (res.message != null)
-                {
-                    ModelState.AddModelError("create error", res.message);
-                }
-                return RedirectToAction("Index");
+                BookName = model.BookName,
+                GenreName = model.GenreName,
+                Height = model.Height,
+                Width = model.Width
+            };
+            if (_set == null)
+            {
+                _set = new SetModel { SetName = model.SetName };                
+                _set.Books.Add(book);
 
             }
-            catch (Exception ex)
+            else
             {
-                ModelState.AddModelError("create error", ex.Message);
-                return View();
-
-            }
-
+                _set.Books.Add(book);
+            }          
             
-            
-        
+        return View();
         }
+
+        public IActionResult CreateSet()
+        {
+            return View();
+        }
+
 
         public IActionResult Details(SetModel set) =>
             View(set);

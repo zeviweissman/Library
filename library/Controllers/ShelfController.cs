@@ -5,9 +5,9 @@ namespace library.Controllers
 {
     public class ShelfController : Controller
     {
-        private readonly IShlfService _shlfService;
+        private readonly IShelfService _shlfService;
 
-        public ShelfController(IShlfService shlfService)
+        public ShelfController(IShelfService shlfService)
         {
             _shlfService = shlfService;
         }

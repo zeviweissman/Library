@@ -1,6 +1,7 @@
 ﻿using library.Models;
 using library.Service;
 using Microsoft.EntityFrameworkCore;
+using library.View_Model;
 
 namespace library.Data
 {
@@ -41,6 +42,7 @@ namespace library.Data
 
         }
         public DbSet<library.Models.SetBookVM> SetBookVM { get; set; } = default!;
+        public DbSet<library.View_Model.ShelfVM> ShelfVM { get; set; } = default!;
 
     }
 }

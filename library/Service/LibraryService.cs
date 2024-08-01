@@ -53,5 +53,18 @@ namespace library.Service
             _dbContext.SaveChanges();
             return shelfModel;
         }
+        public async Task<ShelfModel> CreateShelf(ShelfVM shelfVM)
+        {
+            ShelfModel shelfModel = new()
+            {
+                Height = shelfVM.Height,
+                Width = shelfVM.Width,
+                LibraryId = shelfVM.LibraryId
+            };
+            await _dbContext.shelf.AddAsync(shelfModel);
+            _dbContext.SaveChanges();
+            return shelfModel;
+        }
+
     }
 }

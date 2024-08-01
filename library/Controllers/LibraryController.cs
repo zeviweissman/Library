@@ -8,10 +8,13 @@ namespace library.Controllers
     public class LibraryController : Controller
     {
         private readonly ILibraryService _libraryService;
+        
+
 
         public LibraryController(ILibraryService libraryService)
         {
             _libraryService = libraryService;
+          
         }
         public async Task<IActionResult> Index() =>
             View(await _libraryService
@@ -36,11 +39,23 @@ namespace library.Controllers
 
             }
         }
-        public async Task<IActionResult> InsertShelf()
+        //public async Task<IActionResult> InsertShelf()
+        //{
+        //    return View();
+        //}
+
+        public IActionResult CreateShelf(long id)
         {
-            return View();
+            ViewBag.LibraryId = id;
+            return View(new ShelfVM() { LibraryId = id });
+        }
+        [HttpPost]
+        [AutoValidateAntiforgeryToken]
+        public async Task<IActionResult> CreateShelf(ShelfVM shelfVM)
+        {
+            await _libraryService.CreateShelf(shelfVM);
+            return RedirectToAction("Index");
         }
 
-        
     }
 }
