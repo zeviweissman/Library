@@ -15,7 +15,7 @@ namespace library.Service
 
         public static float VacancyOnShelf(ShelfModel shelf)=>
              shelf.Sets
-            .Aggregate((float)100, (start, nextSet) => start - TotalSetWidth(nextSet));
+            .Aggregate((float)shelf.Width, (start, nextSet) => start - TotalSetWidth(nextSet));
             
         
         public static bool ShelfHasRoom(ShelfModel shelf, SetModel set)  => VacancyOnShelf(shelf) >= TotalSetWidth(set);
