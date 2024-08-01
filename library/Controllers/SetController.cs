@@ -1,6 +1,7 @@
 ﻿using library.Models;
 using library.Service;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Mvc.ModelBinding;
 using Microsoft.CodeAnalysis.CSharp.Syntax;
 using Microsoft.DotNet.Scaffolding.Shared.Messaging;
 using Microsoft.EntityFrameworkCore.Metadata.Internal;
@@ -12,14 +13,14 @@ namespace library.Controllers
     public class SetController : Controller
     {
 
-        public SetModel? _set = null;
+
 
         private readonly ISetService _setService;
 
         public SetController(ISetService setService)
         {
             _setService = setService;
-           
+
         }
 
         public async Task<IActionResult> Index() =>
@@ -34,13 +35,13 @@ namespace library.Controllers
         public async Task<IActionResult> Create(string setName)
         {
 
-            return RedirectToAction("AddBooks", new {setName});
-            
+            return RedirectToAction("AddBooks", new { setName });
+
         }
 
         public IActionResult AddBooks(string? setName)
         {
-            
+
             ViewBag.SetName = setName;
             return View();
 
@@ -49,26 +50,36 @@ namespace library.Controllers
 
         public async Task<IActionResult> AddBooks(SetBookVM model)
         {
-        BookModel book = new()
+            BookModel book = new()
             {
                 BookName = model.BookName,
                 GenreName = model.GenreName,
                 Height = model.Height,
                 Width = model.Width
             };
-            if (_set == null)
+            SetModel set = new() { SetName = model.SetName };
+            set.Books.Add(book);
+
+
+            try
             {
-                _set = new SetModel { SetName = model.SetName };                
-                _set.Books.Add(book);
+                var res = await _setService.InsertSet(set);
+
+                ModelState.AddModelError("create error", res.message);
+
+                return View();
 
             }
-            else
+            catch (Exception ex)
             {
-                _set.Books.Add(book);
-            }          
-            
-        return View();
+                ModelState.AddModelError("create error", ex.Message);
+                return View();
+
+            }
         }
+
+    
+        
 
         public IActionResult CreateSet()
         {

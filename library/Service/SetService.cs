@@ -12,15 +12,20 @@ namespace library.Service
         {
             _dbContext = dBContext;
         }
+        static Exception NoRoomException = new("no room on shelf please create new shelf");
 
-        public static float VacancyOnShelf(ShelfModel shelf)=>
+        static string shortMessage = "Book added succefully but One of the books is shorter than the shelf";
+        static string regularMessage = "Book added succefully";
+        public static float VacancyOnShelf(ShelfModel shelf) =>
              shelf.Sets
             .Aggregate((float)shelf.Width, (start, nextSet) => start - TotalSetWidth(nextSet));
-            
         
-        public static bool ShelfHasRoom(ShelfModel shelf, SetModel set)  => VacancyOnShelf(shelf) >= TotalSetWidth(set);
-        public static bool ShelfIsHigh(ShelfModel shelf, SetModel set) => shelf.Height >= MaxSetHeight(set);
-
+        public static bool ShelfHasRoom(ShelfModel shelf, SetModel set)  =>
+            VacancyOnShelf(shelf) >= TotalSetWidth(set);
+        public static bool ShelfIsHigh(ShelfModel shelf, SetModel set) =>
+            shelf.Height >= MaxSetHeight(set);
+        public static string ShortBookMessage(ShelfModel shelf, SetModel set) =>
+            shelf.Height - MinSetHeight(set) > 10 ? shortMessage : regularMessage;
         public static string GetSetGenre(SetModel set) =>
             set.Books.First().GenreName;
 
@@ -34,6 +39,13 @@ namespace library.Service
         public static float MinSetHeight(SetModel set) =>
             set.Books
             .Min(book => book.Height);
+
+        public static bool BookFitsInShelf(ShelfModel shelf, SetModel set) => ShelfHasRoom(shelf, set) && ShelfIsHigh(shelf, set); 
+        
+
+
+
+
 
         public async Task<List<SetModel>> GetAllSets() =>
             await _dbContext.set.ToListAsync();
@@ -49,13 +61,14 @@ namespace library.Service
             
 
             var shelf = library.Shelves
-                .FirstOrDefault(shelf => ShelfHasRoom(shelf, set) && ShelfIsHigh(shelf, set));            
+                .FirstOrDefault(shelf => BookFitsInShelf(shelf, set));
+            
             if (shelf == null)
             {
-                throw new Exception("no room on shelf please create new shelf");
+                throw NoRoomException;
             }
-            var message = shelf.Height - MinSetHeight(set) > 10 ? "One of the books is shorter than the shelf" : null;
             set.ShelfId = shelf.Id;
+            var message = ShortBookMessage(shelf, set);          
             var res = await _dbContext.set.AddAsync(set);
             await _dbContext.SaveChangesAsync();
             return (res.Entity, message);
