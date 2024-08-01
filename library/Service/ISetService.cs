@@ -6,7 +6,7 @@ namespace library.Service
     {
         Task<List<SetModel>> GetAllSets();
 
-        Task<SetModel> InsertSet(long ShelfId);
+        Task<(SetModel set, string? message)> InsertSet(SetModel set);
 
     }
 }

@@ -40,6 +40,7 @@ namespace library.Data
                  .OnDelete(DeleteBehavior.Cascade);
 
         }
+        public DbSet<library.Models.SetBookVM> SetBookVM { get; set; } = default!;
 
     }
 }
